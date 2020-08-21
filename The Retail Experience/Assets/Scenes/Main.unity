@@ -564,7 +564,7 @@ Transform:
   m_Children:
   - {fileID: 102497888}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &497148775
 GameObject:
@@ -925,7 +925,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &591990469
 MonoBehaviour:
@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 1149055770}
   - component: {fileID: 1149055769}
   m_Layer: 8
-  m_Name: Square (2)
+  m_Name: Milk
   m_TagString: Draggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2646,7 +2646,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 8dde4827d05be4b4195975be606b68a5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.60784316, g: 0.9921569, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2718,7 +2718,7 @@ GameObject:
   - component: {fileID: 1359513017}
   - component: {fileID: 1359513016}
   m_Layer: 8
-  m_Name: Square
+  m_Name: Milk
   m_TagString: Draggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2812,7 +2812,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 8dde4827d05be4b4195975be606b68a5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6084906, g: 0.9922527, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3113,8 +3113,9 @@ Transform:
   - {fileID: 1827577798}
   - {fileID: 1600853309}
   - {fileID: 1661838295}
+  - {fileID: 2130798012}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512665845
 GameObject:
@@ -3130,7 +3131,7 @@ GameObject:
   - component: {fileID: 1512665847}
   - component: {fileID: 1512665846}
   m_Layer: 8
-  m_Name: Square (1)
+  m_Name: Bread
   m_TagString: Draggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3239,7 +3240,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 8dde4827d05be4b4195975be606b68a5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6509434, g: 0.55109775, b: 0.43907973, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3667,6 +3668,7 @@ GameObject:
   - component: {fileID: 1680267443}
   - component: {fileID: 1680267445}
   - component: {fileID: 1680267444}
+  - component: {fileID: 1680267446}
   m_Layer: 0
   m_Name: Scanner
   m_TagString: Untagged
@@ -3765,6 +3767,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1680267446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680267442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cfdad72f56e46840bc39a432064f2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scannedItemName: []
+  scannedItemPrice: []
 --- !u!1 &1698144766
 GameObject:
   m_ObjectHideFlags: 0
@@ -3797,7 +3813,7 @@ Transform:
   - {fileID: 1149055773}
   - {fileID: 1892002073}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1717904491
 GameObject:
@@ -3841,7 +3857,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1783227291
 GameObject:
@@ -3976,7 +3992,7 @@ Transform:
   - {fileID: 1602591054}
   - {fileID: 1363878616}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1827577797
 GameObject:
@@ -4045,7 +4061,7 @@ GameObject:
   - component: {fileID: 1892002070}
   - component: {fileID: 1892002069}
   m_Layer: 8
-  m_Name: Square (3)
+  m_Name: Eggs
   m_TagString: Draggable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4154,7 +4170,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 8dde4827d05be4b4195975be606b68a5, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.9811321, g: 0.80905163, b: 0.67105734, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4287,3 +4303,54 @@ Transform:
   m_Father: {fileID: 1246771256}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2130798011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2130798012}
+  - component: {fileID: 2130798013}
+  m_Layer: 0
+  m_Name: VariablesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2130798012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130798011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1509214058}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2130798013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130798011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae42fa3b176214b45a276de05057447e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groceryItemName:
+  - Milk
+  - Bread
+  - Eggs
+  groceryItemPrice:
+  - 1.23
+  - 0.75
+  - 3.57

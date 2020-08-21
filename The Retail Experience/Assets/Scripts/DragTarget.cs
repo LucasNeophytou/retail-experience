@@ -15,6 +15,7 @@ public class DragTarget : MonoBehaviour
 	public Color m_Color = Color.cyan;
 
 	private TargetJoint2D m_TargetJoint;
+	public BoxCollider2D boxCol;
 
 	void Update ()
 	{
@@ -44,11 +45,15 @@ public class DragTarget : MonoBehaviour
 					m_TargetJoint.dampingRatio = m_Damping;
 					m_TargetJoint.frequency = m_Frequency;
 
+					boxCol = body.gameObject.GetComponent<BoxCollider2D>();
+					boxCol.isTrigger = true;
+
 					// Attach the anchor to the local-point where we clicked.
 					m_TargetJoint.anchor = m_TargetJoint.transform.InverseTransformPoint (worldPos);		
 				}
 				else if (Input.GetMouseButtonUp (0))
 				{
+					boxCol.isTrigger = false;
 					Destroy (m_TargetJoint);
 					m_TargetJoint = null;
 					return;
