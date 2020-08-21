@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public int value = 0;
     public TMP_Text intText;
     public TMP_Text handModeText;
+    public int buildIndex;
 
 
     void Awake () {
@@ -36,12 +37,24 @@ public class GameManager : MonoBehaviour
 
     void Start () {
 
-        SetGameState(GameState.menu);
+        if (buildIndex == 0) {
+
+            BackToMenu();
+        }
+        else if (buildIndex >= 1) {
+
+            StartGame();
+        }
     }
 
     public void StartGame () {
 
         SetGameState(GameState.inGame);
+    }
+
+    public void BackToMenu () {
+
+        SetGameState(GameState.menu);
     }
 
     void Update () {

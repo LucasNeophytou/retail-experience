@@ -29,7 +29,7 @@ public class Gravity : MonoBehaviour
         if (rb.velocity.y > 0) {
 
             rb.velocity += Vector2.up * Physics2D.gravity.y * (gravityMultiplier - 1) * Time.deltaTime;
-            Debug.Log(rb.velocity);
+            //Debug.Log(rb.velocity);
 
         }
 
