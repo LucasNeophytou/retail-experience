@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Draggable
+  - Bag
+  - Customer
+  - Packed
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - 
   - 
   - Draggable
-  - 
+  - Bag
   - 
   - 
   - 

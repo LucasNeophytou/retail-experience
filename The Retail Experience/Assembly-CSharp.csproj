@@ -37,11 +37,19 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Gravity.cs" />
+     <Compile Include="Assets\Scripts\LargeBagTrigger.cs" />
+     <Compile Include="Assets\Scripts\Scanner.cs" />
+     <Compile Include="Assets\Scripts\PaperBagTrigger.cs" />
+     <Compile Include="Assets\Scripts\DragBag.cs" />
      <Compile Include="Assets\Scripts\DragTarget.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
-     <Compile Include="Assets\Scripts\Scanner.cs" />
      <Compile Include="Assets\Scripts\Variables.cs" />
+     <Compile Include="Assets\Scripts\DestroyBag.cs" />
+     <Compile Include="Assets\Scripts\BagLocationTrigger.cs" />
+     <Compile Include="Assets\Scripts\BagSpawner.cs" />
+     <Compile Include="Assets\Scripts\ConveyorBelt.cs" />
+     <Compile Include="Assets\Scripts\PlasticBagTrigger.cs" />
+     <Compile Include="Assets\Scripts\BagScript.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
